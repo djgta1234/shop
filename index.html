@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shop</title>
+    <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+</head>
+<body>
+    <header class="bg-white">
+        <nav class="mx-auto flex max-w-7xl items-center justify-between p-6 lg:px-8" aria-label="Global">
+            <a href="info.html">About</a>
+            <a href="#s" class="text-sm/6 font-semibold text-gray-900">เสื้อ</a>
+            <a href="#k" class="text-sm/6 font-semibold text-gray-900">กางเกง</a>
+            <a href="#t" class="text-sm/6 font-semibold text-gray-900">รองเท้า</a>
+
+        </nav>
+        <!-- Mobile menu, show/hide based on menu open state. -->
+        <div class="lg:hidden" role="dialog" aria-modal="true">
+          <!-- Background backdrop, show/hide based on slide-over state. -->
+          <div class="fixed inset-0 z-10"></div>
+          <div class="fixed inset-y-0 right-0 z-10 w-full overflow-y-auto bg-white px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
+            <div class="flex items-center justify-between">
+              <a href="#" class="-m-1.5 p-1.5">
+                <span class="sr-only">Your Company</span>
+                <img class="h-8 w-auto" src="https://tailwindui.com/plus/img/logos/mark.svg?color=indigo&shade=600" alt="">
+              </a>
+              <button type="button" class="-m-2.5 rounded-md p-2.5 text-gray-700">
+                <span class="sr-only">Close menu</span>
+                <svg class="size-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true" data-slot="icon">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M6 18 18 6M6 6l12 12" />
+                </svg>
+              </button>
+            </div>
+           
+      </header>
+      
+    <div class="bg-white">
+        <div class="mx-auto max-w-2xl px-4 py-16 sm:px-6 sm:py-24 lg:max-w-7xl lg:px-8">
+          <h2 id="s" class="text-2xl font-bold tracking-tight text-gray-900">เสื้อ</h2>
+      
+          <div class="mt-6 grid grid-cols-1 gap-x-6 gap-y-10 sm:grid-cols-2 lg:grid-cols-4 xl:gap-x-8">
+            <div class="group relative">
+              <img src="https://tailwindui.com/plus/img/ecommerce-images/product-page-01-related-product-01.jpg" alt="Front of men&#039;s Basic Tee in black." class="aspect-square w-full rounded-md bg-gray-200 object-cover group-hover:opacity-75 lg:aspect-auto lg:h-80">
+              <div class="mt-4 flex justify-between">
+                <div>
+                  <h3 class="text-sm text-gray-700">
+                    <a href="productdetail.html" onclick="saveProductInfo('เสื้อเชิ้ต', '340', 'ดำ', 'https://tailwindui.com/plus/img/ecommerce-images/product-page-01-related-product-01.jpg')">
+                        <span aria-hidden="true" class="absolute inset-0"></span>
+                        เสื้อเชิ้ต
+                      </a>
+                  </h3>
+                  <p class="mt-1 text-sm text-gray-500">ดำ</p>
+                </div>
+                <p class="text-sm font-medium text-gray-900">340</p>
+              </div>
+            </div>
+            <div class="group relative">
+                <img src="https://tailwindui.com/plus/img/ecommerce-images/product-page-01-related-product-02.jpg" alt="Front of men&#039;s Basic Tee in black." class="aspect-square w-full rounded-md bg-gray-200 object-cover group-hover:opacity-75 lg:aspect-auto lg:h-80">
+                <div class="mt-4 flex justify-between">
+                  <div>
+                    <h3 class="text-sm text-gray-700">
+                        <a href="productdetail.html" onclick="saveProductInfo('เสื้อเชิ้ต', '380', 'ครีม', 'https://tailwindui.com/plus/img/ecommerce-images/product-page-01-related-product-02.jpg')">
+                            <span aria-hidden="true" class="absolute inset-0"></span>
+                            เสื้อเชิ้ต
+                          </a>
+                    </h3>
+                    <p class="mt-1 text-sm text-gray-500">ครีม</p>
+                  </div>
+                  <p class="text-sm font-medium text-gray-900">380</p>
+                </div>
+              </div>
+              <div class="group relative">
+                <img src="https://tailwindui.com/plus/img/ecommerce-images/product-page-01-related-product-03.jpg" alt="Front of men&#039;s Basic Tee in black." class="aspect-square w-full rounded-md bg-gray-200 object-cover group-hover:opacity-75 lg:aspect-auto lg:h-80">
+                <div class="mt-4 flex justify-between">
+                  <div>
+                    <h3 class="text-sm text-gray-700">
+                        <a href="productdetail.html" onclick="saveProductInfo('เสื้อเชิ้ต', '355', 'เทา', 'https://tailwindui.com/plus/img/ecommerce-images/product-page-01-related-product-03.jpg')">
+                            <span aria-hidden="true" class="absolute inset-0"></span>
+                            เสื้อเชิ้ต
+                          </a>
+                    </h3>
+                    <p class="mt-1 text-sm text-gray-500">เทา</p>
+                  </div>
+                  <p class="text-sm font-medium text-gray-900">355</p>
+                </div>
+              </div>
+              <div class="group relative">
+                <img src="https://tailwindui.com/plus/img/ecommerce-images/product-page-01-related-product-04.jpg" alt="Front of men&#039;s Basic Tee in black." class="aspect-square w-full rounded-md bg-gray-200 object-cover group-hover:opacity-75 lg:aspect-auto lg:h-80">
+                <div class="mt-4 flex justify-between">
+                  <div>
+                    <h3 class="text-sm text-gray-700">
+                        <a href="productdetail.html" onclick="saveProductInfo('เสื้อเชิ้ต', '399', 'ส้ม', 'https://tailwindui.com/plus/img/ecommerce-images/product-page-01-related-product-04.jpg')">
+                            <span aria-hidden="true" class="absolute inset-0"></span>
+                            เสื้อเชิ้ต
+                          </a>
+                    </h3>
+                    <p class="mt-1 text-sm text-gray-500">ส้ม</p>
+                  </div>
+                  <p class="text-sm font-medium text-gray-900">399</p>
+                </div>
+              </div>
+
+            <!-- More products... -->
+          </div>
+          <h2 id="k" class="text-2xl font-bold tracking-tight text-gray-900 mt-10">กางเกง</h2>
+      
+          <div class="mt-6 grid grid-cols-1 gap-x-6 gap-y-10 sm:grid-cols-2 lg:grid-cols-4 xl:gap-x-8">
+            <div class="group relative">
+              <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT6YZzSpBlL3pgmMsluzXgufXmdPwxnILHZvQ&s" alt="Front of men&#039;s Basic Tee in black." class="aspect-square w-full rounded-md bg-gray-200 object-cover group-hover:opacity-75 lg:aspect-auto lg:h-80">
+              <div class="mt-4 flex justify-between">
+                <div>
+                  <h3 class="text-sm text-gray-700">
+                    <a href="productdetail.html" onclick="saveProductInfo('กางเกง', '299', 'เขียวอ่อน', 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT6YZzSpBlL3pgmMsluzXgufXmdPwxnILHZvQ&s')">
+                        <span aria-hidden="true" class="absolute inset-0"></span>
+                        กางเกง
+                      </a>
+                  </h3>
+                  <p class="mt-1 text-sm text-gray-500">เขียวอ่อน</p>
+                </div>
+                <p class="text-sm font-medium text-gray-900">299</p>
+              </div>
+            </div>
+            <div class="group relative">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRE82wCGDIT2IM7r1SPPZSMUi08xQA02lKZ8w&s" alt="Front of men&#039;s Basic Tee in black." class="aspect-square w-full rounded-md bg-gray-200 object-cover group-hover:opacity-75 lg:aspect-auto lg:h-80">
+                <div class="mt-4 flex justify-between">
+                  <div>
+                    <h3 class="text-sm text-gray-700">
+                        <a href="productdetail.html" onclick="saveProductInfo('กางเกง', '285', 'ดำ', 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRE82wCGDIT2IM7r1SPPZSMUi08xQA02lKZ8w&s')">
+                            <span aria-hidden="true" class="absolute inset-0"></span>
+                            กางเกง
+                          </a>
+                    </h3>
+                    <p class="mt-1 text-sm text-gray-500">ดำ</p>
+                  </div>
+                  <p class="text-sm font-medium text-gray-900">285</p>
+                </div>
+              </div>
+              <div class="group relative">
+                <img src="https://img.lovepik.com/element/40046/5912.png_1200.png" alt="Front of men&#039;s Basic Tee in black." class="aspect-square w-full rounded-md bg-gray-200 object-cover group-hover:opacity-75 lg:aspect-auto lg:h-80">
+                <div class="mt-4 flex justify-between">
+                  <div>
+                    <h3 class="text-sm text-gray-700">
+                        <a href="productdetail.html" onclick="saveProductInfo('กางเกง', '300', 'กรม', 'https://img.lovepik.com/element/40046/5912.png_1200.png')">
+                            <span aria-hidden="true" class="absolute inset-0"></span>
+                            กางเกง
+                          </a>
+                    </h3>
+                    <p class="mt-1 text-sm text-gray-500">กรม</p>
+                  </div>
+                  <p class="text-sm font-medium text-gray-900">300</p>
+                </div>
+              </div>
+              <div class="group relative">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTTjX-9LnGzo9VkFHZ7UYYzA61MlctzsFMG6Q&s" alt="Front of men&#039;s Basic Tee in black." class="aspect-square w-full rounded-md bg-gray-200 object-cover group-hover:opacity-75 lg:aspect-auto lg:h-80">
+                <div class="mt-4 flex justify-between">
+                  <div>
+                    <h3 class="text-sm text-gray-700">
+                        <a href="productdetail.html" onclick="saveProductInfo('กางเกง', '199', 'เหลือง', 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTTjX-9LnGzo9VkFHZ7UYYzA61MlctzsFMG6Q&s')">
+                            <span aria-hidden="true" class="absolute inset-0"></span>
+                            กางเกง
+                          </a>
+                    </h3>
+                    <p class="mt-1 text-sm text-gray-500">เหลือง</p>
+                  </div>
+                  <p class="text-sm font-medium text-gray-900">199</p>
+                </div>
+              </div>
+
+            <!-- More products... -->
+          </div>
+          <h2 id="t" class="text-2xl font-bold tracking-tight text-gray-900 mt-10">รองเท้า</h2>
+      
+          <div class="mt-6 grid grid-cols-1 gap-x-6 gap-y-10 sm:grid-cols-2 lg:grid-cols-4 xl:gap-x-8">
+            <div class="group relative">
+              <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTUFsmBD3UIZSTtcTF_YNfbYBzkLWNAnWGCqQ&s" alt="Front of men&#039;s Basic Tee in black." class="aspect-square w-full rounded-md bg-gray-200 object-cover group-hover:opacity-75 lg:aspect-auto lg:h-80">
+              <div class="mt-4 flex justify-between">
+                <div>
+                  <h3 class="text-sm text-gray-700">
+                    <a href="productdetail.html" onclick="saveProductInfo('รองเท้า', '299', 'ดำ', 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTUFsmBD3UIZSTtcTF_YNfbYBzkLWNAnWGCqQ&s')">
+                        <span aria-hidden="true" class="absolute inset-0"></span>
+                        รองเท้า
+                      </a>
+                  </h3>
+                  <p class="mt-1 text-sm text-gray-500">ดำ</p>
+                </div>
+                <p class="text-sm font-medium text-gray-900">312</p>
+              </div>
+            </div>
+            <div class="group relative">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQQ-haLnvALqBqzmqWFwAH38LIKny-gWFK8rA&s" class="aspect-square w-full rounded-md bg-gray-200 object-cover group-hover:opacity-75 lg:aspect-auto lg:h-80">
+                <div class="mt-4 flex justify-between">
+                  <div>
+                    <h3 class="text-sm text-gray-700">
+                        <a href="productdetail.html" onclick="saveProductInfo('รองเท้า', '365', 'ดำ', 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQQ-haLnvALqBqzmqWFwAH38LIKny-gWFK8rA&s')">
+                            <span aria-hidden="true" class="absolute inset-0"></span>
+                            รองเท้า
+                          </a>
+                    </h3>
+                    <p class="mt-1 text-sm text-gray-500">ส้ม</p>
+                  </div>
+                  <p class="text-sm font-medium text-gray-900">365</p>
+                </div>
+              </div>
+
+            <!-- More products... -->
+          </div>
+        </div>
+      </div>
+      
+      <script>
+        function saveProductInfo(name, price, color, imageUrl) {
+          localStorage.setItem('productName', name);
+          localStorage.setItem('productPrice', price);
+          localStorage.setItem('productColor', color);
+          localStorage.setItem('productImageUrl', imageUrl);
+        }
+      </script>
+</body>
+</html>
